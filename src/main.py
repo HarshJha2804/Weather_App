@@ -1,4 +1,3 @@
-
 import subprocess
 import sys
 
@@ -10,7 +9,7 @@ steps = [
 for step in steps:
     print(f"\nRunning: {step}")
 
-    result = subprocess.run(
+    subprocess.run(
         [sys.executable, step],
         check=True
     )

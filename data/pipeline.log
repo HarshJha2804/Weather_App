@@ -1,0 +1,44 @@
+2026-10-22 14:45:55,818 - INFO - Weather fetched for Delhi
+2026-10-22 14:45:56,739 - INFO - Weather fetched for Mumbai
+2026-10-22 14:45:57,662 - INFO - Weather fetched for Bengaluru
+2026-10-22 14:45:57,667 - INFO - Weather CSV created successfully
+2026-10-22 14:47:06,369 - INFO - Weather fetched for Delhi
+2026-10-22 14:47:07,187 - INFO - Weather fetched for Mumbai
+2026-10-22 14:47:08,019 - INFO - Weather fetched for Bengaluru
+2026-10-22 14:47:08,023 - INFO - Weather CSV created successfully
+2026-10-22 14:47:12,773 - INFO - Data transformation successful: 3 rows
+2026-10-22 14:55:53,714 - INFO - Delhi weather fetched successfully
+2026-10-22 14:55:54,348 - INFO - Mumbai weather fetched successfully
+2026-10-22 14:55:55,214 - INFO - Bengaluru weather fetched successfully
+2026-10-22 14:55:55,217 - INFO - Pipeline completed: 3 cities processed
+2026-10-22 14:55:59,778 - INFO - Data transformation successful: 6 rows
+2026-10-22 14:58:12,548 - INFO - Delhi weather fetched successfully
+2026-10-22 14:58:13,335 - INFO - Mumbai weather fetched successfully
+2026-10-22 14:58:13,981 - INFO - Bengaluru weather fetched successfully
+2026-10-22 14:58:13,986 - INFO - Pipeline completed: 3 cities processed
+2026-10-22 14:58:18,318 - INFO - Data transformation successful: 9 rows
+2026-10-22 14:59:24,990 - INFO - Delhi weather fetched successfully
+2026-10-22 14:59:25,855 - INFO - Mumbai weather fetched successfully
+2026-10-22 14:59:26,654 - INFO - Bengaluru weather fetched successfully
+2026-10-22 14:59:26,657 - INFO - Pipeline completed: 3 cities processed
+2026-10-22 14:59:30,495 - INFO - Transformation successful: 6 unique records
+2026-10-22 15:04:09,050 - INFO - Delhi weather fetched successfully
+2026-10-22 15:04:09,892 - INFO - Mumbai weather fetched successfully
+2026-10-22 15:04:10,711 - INFO - Bengaluru weather fetched successfully
+2026-10-22 15:04:10,714 - INFO - Pipeline completed: 3 cities processed
+2026-10-22 15:04:15,266 - INFO - Transformation successful: 9 unique records
+2026-10-22 15:15:03,717 - INFO - Delhi weather fetched successfully
+2026-10-22 15:15:06,551 - INFO - Mumbai weather fetched successfully
+2026-10-22 15:15:07,288 - INFO - Bengaluru weather fetched successfully
+2026-10-22 15:15:07,292 - INFO - Pipeline completed: 3 cities processed
+2026-10-22 15:15:11,830 - INFO - Transformation successful: 12 unique records
+2026-10-22 15:30:05,395 - INFO - Delhi weather fetched successfully
+2026-10-22 15:30:06,411 - INFO - Mumbai weather fetched successfully
+2026-10-22 15:30:07,444 - INFO - Bengaluru weather fetched successfully
+2026-10-22 15:30:07,447 - INFO - Pipeline completed: 3 cities processed
+2026-10-22 15:30:14,079 - INFO - Transformation successful: 15 unique records
+2026-10-22 15:45:03,469 - INFO - Delhi weather fetched successfully
+2026-10-22 15:45:04,244 - INFO - Mumbai weather fetched successfully
+2026-10-22 15:45:04,895 - INFO - Bengaluru weather fetched successfully
+2026-10-22 15:45:04,898 - INFO - Pipeline completed: 3 cities processed
+2026-10-22 15:45:08,512 - INFO - Transformation successful: 18 unique records
