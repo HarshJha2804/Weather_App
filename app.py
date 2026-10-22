@@ -234,14 +234,16 @@ try:
     # 10. Combined Data Table
     # -------------------------------
     st.subheader("📋 Combined Weather Data")
-
+    
     st.dataframe(
-        filtered_df.sort_values(
-            "time",
-            ascending=False
-        ),
-        use_container_width=True
-    )
+    filtered_df.sort_values(
+        "time",
+        ascending=False
+    ),
+    width="stretch"
+)
+
+    
 
 except FileNotFoundError:
     st.error(
