@@ -899,3 +899,1973 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/subprocess.py", line 526, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/.venv/bin/python', 'src/transform.py']' returned non-zero exit status 1.
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/pipeline.py", line 48
+    >>>>>>> 21e511f (added files)
+                 ^
+SyntaxError: invalid decimal literal
+
+Running: src/pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/main.py", line 12, in <module>
+    subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/.venv/bin/python', 'src/pipeline.py']' returned non-zero exit status 1.
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/pipeline.py", line 48
+    >>>>>>> 21e511f (added files)
+                 ^
+SyntaxError: invalid decimal literal
+
+Running: src/pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/main.py", line 12, in <module>
+    subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/.venv/bin/python', 'src/pipeline.py']' returned non-zero exit status 1.
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/pipeline.py", line 48
+    >>>>>>> 21e511f (added files)
+                 ^
+SyntaxError: invalid decimal literal
+
+Running: src/pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/main.py", line 12, in <module>
+    subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/.venv/bin/python', 'src/pipeline.py']' returned non-zero exit status 1.
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/pipeline.py", line 48
+    >>>>>>> 21e511f (added files)
+                 ^
+SyntaxError: invalid decimal literal
+
+Running: src/pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/main.py", line 12, in <module>
+    subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/.venv/bin/python', 'src/pipeline.py']' returned non-zero exit status 1.
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Failed: Casablanca - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 93 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 356
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 356
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 450
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 450
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 537
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 631
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 631
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Failed: Delhi - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=28.6139&longitude=77.209&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Mumbai - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=19.076&longitude=72.8777&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Bengaluru - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=12.9716&longitude=77.5946&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Chennai - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=13.0827&longitude=80.2707&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Kolkata - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=22.5726&longitude=88.3639&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Hyderabad - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=17.385&longitude=78.4867&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Pune - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=18.5204&longitude=73.8567&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Jaipur - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=26.9124&longitude=75.7873&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Ahmedabad - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=23.0225&longitude=72.5714&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Lucknow - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=26.8467&longitude=80.9462&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: London - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.5072&longitude=-0.1276&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Manchester - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=53.4808&longitude=-2.2426&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Birmingham - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=52.4862&longitude=-1.8904&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Paris - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=48.8566&longitude=2.3522&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Lyon - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.764&longitude=4.8357&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Berlin - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=52.52&longitude=13.405&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Munich - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=48.1351&longitude=11.582&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Hamburg - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=53.5511&longitude=9.9937&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Rome - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=41.9028&longitude=12.4964&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Milan - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4642&longitude=9.19&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Madrid - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=40.4168&longitude=-3.7038&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Barcelona - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=41.3874&longitude=2.1686&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Amsterdam - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=52.3676&longitude=4.9041&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Brussels - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=50.8503&longitude=4.3517&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Zurich - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=47.3769&longitude=8.5417&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Vienna - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=48.2082&longitude=16.3738&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Stockholm - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=59.3293&longitude=18.0686&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Oslo - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=59.9139&longitude=10.7522&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Copenhagen - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=55.6761&longitude=12.5683&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Helsinki - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=60.1699&longitude=24.9384&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Warsaw - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=52.2297&longitude=21.0122&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Prague - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=50.0755&longitude=14.4378&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Lisbon - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=38.7223&longitude=-9.1393&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Athens - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.9838&longitude=23.7275&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Istanbul - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=41.0082&longitude=28.9784&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: New York - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=40.7128&longitude=-74.006&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Los Angeles - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=34.0522&longitude=-118.2437&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Chicago - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=41.8781&longitude=-87.6298&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Houston - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=29.7604&longitude=-95.3698&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Seattle - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=47.6062&longitude=-122.3321&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Delhi - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=28.6139&longitude=77.209&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Mumbai - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=19.076&longitude=72.8777&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Bengaluru - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=12.9716&longitude=77.5946&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Chennai - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=13.0827&longitude=80.2707&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Kolkata - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=22.5726&longitude=88.3639&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Hyderabad - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=17.385&longitude=78.4867&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Pune - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=18.5204&longitude=73.8567&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Jaipur - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=26.9124&longitude=75.7873&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Ahmedabad - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=23.0225&longitude=72.5714&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Lucknow - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=26.8467&longitude=80.9462&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: London - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.5072&longitude=-0.1276&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Manchester - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=53.4808&longitude=-2.2426&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Birmingham - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=52.4862&longitude=-1.8904&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Paris - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=48.8566&longitude=2.3522&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Lyon - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.764&longitude=4.8357&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Berlin - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=52.52&longitude=13.405&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Munich - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=48.1351&longitude=11.582&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Hamburg - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=53.5511&longitude=9.9937&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Rome - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=41.9028&longitude=12.4964&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Milan - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4642&longitude=9.19&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Toronto - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=43.6532&longitude=-79.3832&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Vancouver - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=49.2827&longitude=-123.1207&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Montreal - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.5019&longitude=-73.5674&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Mexico City - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=19.4326&longitude=-99.1332&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Guadalajara - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=20.6597&longitude=-103.3496&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Sao Paulo - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=-23.5505&longitude=-46.6333&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Rio de Janeiro - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=-22.9068&longitude=-43.1729&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Buenos Aires - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=-34.6037&longitude=-58.3816&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Santiago - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=-33.4489&longitude=-70.6693&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Bogota - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=4.711&longitude=-74.0721&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Lima - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=-12.0464&longitude=-77.0428&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Tokyo - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=35.6762&longitude=139.6503&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Osaka - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=34.6937&longitude=135.5023&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Seoul - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.5665&longitude=126.978&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Busan - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=35.1796&longitude=129.0756&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Beijing - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=39.9042&longitude=116.4074&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Shanghai - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=31.2304&longitude=121.4737&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 37 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 664
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Failed: Madrid - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=40.4168&longitude=-3.7038&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Barcelona - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=41.3874&longitude=2.1686&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Amsterdam - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=52.3676&longitude=4.9041&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Brussels - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=50.8503&longitude=4.3517&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Zurich - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=47.3769&longitude=8.5417&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Vienna - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=48.2082&longitude=16.3738&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Stockholm - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=59.3293&longitude=18.0686&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Failed: Oslo - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=59.9139&longitude=10.7522&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 66 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 689
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 699
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 699
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 767
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 767
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 767
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 861
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 861
+Unique cities: 94
+Cities with missing population: 74
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/pipeline.py:68: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  combined = pd.concat([old_data, new_data], ignore_index=True)
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 94
+Unique cities: 94
+Cities with missing population: 50
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!
+Failed: Tokyo - ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Failed: Delhi - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=28.6139&longitude=77.209&current=temperature_2m%2Crelative_humidity_2m&timezone=GMT (Caused by NameResolutionError("HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno -3] Temporary failure in name resolution)"))
+Fetched: Shanghai, China
+Failed: Sao Paulo - HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)
+Fetched: Mexico City, Mexico
+Fetched: Cairo, Egypt
+Fetched: Dhaka, Bangladesh
+Fetched: Mumbai, India
+Fetched: Beijing, China
+Fetched: Osaka, Japan
+Fetched: Karachi, Pakistan
+Fetched: Chongqing, China
+Fetched: Istanbul, Turkey
+Fetched: Buenos Aires, Argentina
+Fetched: Kolkata, India
+Fetched: Kinshasa, DR Congo
+Fetched: Lagos, Nigeria
+Fetched: Manila, Philippines
+Fetched: Tianjin, China
+Fetched: Guangzhou, China
+Fetched: Rio de Janeiro, Brazil
+Fetched: Lahore, Pakistan
+Fetched: Bangalore, India
+Fetched: Shenzhen, China
+Fetched: Moscow, Russia
+Fetched: Chennai, India
+Fetched: Bogota, Colombia
+Fetched: Paris, France
+Fetched: Jakarta, Indonesia
+Fetched: Lima, Peru
+Fetched: Bangkok, Thailand
+Fetched: Hyderabad, India
+Fetched: Seoul, South Korea
+Fetched: Nagoya, Japan
+Fetched: London, UK
+Fetched: Chengdu, China
+Fetched: Nanjing, China
+Fetched: Tehran, Iran
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Luanda, Angola
+Fetched: Wuhan, China
+Fetched: Dongguan, China
+Fetched: Xi'an, China
+Fetched: Ahmedabad, India
+Fetched: Kuala Lumpur, Malaysia
+Fetched: New York, USA
+Fetched: Hangzhou, China
+Fetched: Surat, India
+Fetched: Suzhou, China
+Fetched: Dar es Salaam, Tanzania
+Fetched: Baghdad, Iraq
+Fetched: Hong Kong, China
+Fetched: Riyadh, Saudi Arabia
+Fetched: Shenyang, China
+Fetched: Foshan, China
+Fetched: Santiago, Chile
+Fetched: Pune, India
+Fetched: Madrid, Spain
+Fetched: Harbin, China
+Fetched: Toronto, Canada
+Fetched: Qingdao, China
+Fetched: Singapore, Singapore
+Fetched: Belo Horizonte, Brazil
+Fetched: Sydney, Australia
+Fetched: Guadalajara, Mexico
+Fetched: Dallas, USA
+Fetched: Miami, USA
+Fetched: Berlin, Germany
+Fetched: Cape Town, South Africa
+Fetched: Rome, Italy
+
+Success! Fetched weather for 67 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation successful!
+Total rows: 137
+Unique cities: 70
+Cities with missing population: 0
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/combined_data.csv
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+
+Pipeline completed successfully!

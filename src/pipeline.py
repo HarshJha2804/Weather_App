@@ -20,37 +20,13 @@ logging.basicConfig(
     format="%(asctime)s %(levelname)s %(message)s",
 )
 
-<<<<<<< HEAD
-# Cities ke coordinates
-CITIES = {
-    "Delhi": {"latitude": 28.6139, "longitude": 77.2090},
-    "Mumbai": {"latitude": 19.0760, "longitude": 72.8777},
-    "Bengaluru": {"latitude": 12.9716, "longitude": 77.5946},
-}
 
-CSV_FILE = "data/weather.csv"
-
-FIELDS = [
-    "time",
-    "temperature_celsius",
-    "relative_humidity",
-    "city"
-]
-
-
-def fetch_weather(city, coordinates):
-    """Open-Meteo API"""
-
-    url = "https://api.open-meteo.com/v1/forecast"
-
-=======
 def fetch_weather(city):
->>>>>>> 21e511f (added files)
     params = {
         "latitude": city["latitude"],
         "longitude": city["longitude"],
         "current": "temperature_2m,relative_humidity_2m",
-        "timezone": "auto",
+        "timezone": "GMT",
     }
 
     response = requests.get(API_URL, params=params, timeout=30)
@@ -68,13 +44,10 @@ def fetch_weather(city):
         "longitude": city["longitude"],
     }
 
+
 def run_pipeline():
-<<<<<<< HEAD
-    """Append weather data to csv ."""
-=======
     cities = pd.read_csv(CITIES_FILE)
     records = []
->>>>>>> 21e511f (added files)
 
     for _, city in cities.iterrows():
         try:
@@ -103,8 +76,10 @@ def run_pipeline():
 
     combined.to_csv(WEATHER_FILE, index=False)
 
+    logging.info("Fetched weather for %s cities", len(new_data))
     print(f"\nSuccess! Fetched weather for {len(new_data)} cities.")
     print(f"Saved to: {WEATHER_FILE}")
+
 
 if __name__ == "__main__":
     run_pipeline()

@@ -1,5 +1,6 @@
 
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 import pandas as pd
 import subprocess
 import sys
@@ -12,6 +13,10 @@ st.set_page_config(
     page_title="Weather Dashboard",
     page_icon="🌦️",
     layout="wide"
+)
+st_autorefresh(
+    interval=5 * 60 * 1000,
+    key="weather_dashboard_autorefresh"
 )
 
 st.title("🌦️ Weather Dashboard")
@@ -174,34 +179,39 @@ try:
     # -------------------------------
     # 7. Latest Weather Cards
     # -------------------------------
+    
+    # -------------------------------
+    # 7. Latest Weather Cards
+    # -------------------------------
     latest_df = (
         filtered_df.sort_values("time")
-        .drop_duplicates(
-            subset=["city"],
-            keep="last"
-        )
+        .drop_duplicates(subset=["city"], keep="last")
+        .sort_values("city")
+        .reset_index(drop=True)
     )
 
     st.subheader("🌡️ Current Weather")
 
-    columns = st.columns(len(latest_df))
+    # Display 4 city cards per row
+    cards_per_row = 4
 
-    for column, (_, row) in zip(
-        columns,
-        latest_df.iterrows()
-    ):
-        with column:
-            humidity = row["relative_humidity"]
+    for start in range(0, len(latest_df), cards_per_row):
+        city_batch = latest_df.iloc[start:start + cards_per_row]
+        columns = st.columns(cards_per_row)
 
-            st.metric(
-                label=row["city"],
-                value=f'{row["temperature_celsius"]:.1f} °C',
-                delta=(
-                    f"Humidity: {humidity:.0f}%"
-                    if pd.notna(humidity)
-                    else "Humidity: N/A"
+        for column, (_, row) in zip(columns, city_batch.iterrows()):
+            with column:
+                humidity = row["relative_humidity"]
+
+                st.metric(
+                    label=row["city"],
+                    value=f'{row["temperature_celsius"]:.1f} °C',
+                    delta=(
+                        f"Humidity: {humidity:.0f}%"
+                        if pd.notna(humidity)
+                        else "Humidity: N/A"
+                    )
                 )
-            )
 
     # -------------------------------
     # 8. Temperature Comparison

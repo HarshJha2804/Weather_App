@@ -1,23 +1,71 @@
-
 city,population,median_age
-Delhi,16787941,27
-Mumbai,12442373,30
-Bengaluru,8443675,28
-Chennai,7088000,29
-Kolkata,4497000,30
-London,8982000,36
-Paris,2103000,39
-Berlin,3677000,43
-Tokyo,13960000,49
-Singapore,5918000,43
-Dubai,3600000,34
-Toronto,2794000,39
-New York,8804000,38
-Sydney,5300000,38
-Sao Paulo,11450000,34
-Cairo,10200000,25
-Nairobi,4397000,20
-Bangkok,10540000,39
-Seoul,9410000,44
-Madrid,3320000,45
-
+Tokyo,37400068,
+Delhi,29399141,
+Shanghai,26317104,
+Sao Paulo,21846507,
+Mexico City,21671908,
+Cairo,20484965,
+Dhaka,20283552,
+Mumbai,20185064,
+Beijing,20035455,
+Osaka,19222665,
+Karachi,16093786,
+Chongqing,15872000,
+Istanbul,15190336,
+Buenos Aires,15153729,
+Kolkata,14850066,
+Kinshasa,14342439,
+Lagos,14368332,
+Manila,13923452,
+Tianjin,13396402,
+Guangzhou,13275365,
+Rio de Janeiro,13374275,
+Lahore,12642423,
+Bangalore,12326532,
+Shenzhen,12356820,
+Moscow,12538017,
+Chennai,10971108,
+Bogota,10978360,
+Paris,11020000,
+Jakarta,10770487,
+Lima,10719675,
+Bangkok,10539000,
+Hyderabad,10004144,
+Seoul,9962393,
+Nagoya,9113000,
+London,8982000,
+Chengdu,9011925,
+Nanjing,8789855,
+Tehran,8693706,
+Ho Chi Minh City,8636899,
+Luanda,8330000,
+Wuhan,8312000,
+Dongguan,7360000,
+Xi'an,7948032,
+Ahmedabad,8059000,
+Kuala Lumpur,7996000,
+New York,8336817,
+Hangzhou,7606000,
+Surat,7183000,
+Suzhou,7064000,
+Dar es Salaam,6702000,
+Baghdad,7144000,
+Hong Kong,7496981,
+Riyadh,7231000,
+Shenyang,7105000,
+Foshan,7194000,
+Santiago,6760000,
+Pune,6616000,
+Madrid,6618000,
+Harbin,6360000,
+Toronto,6197000,
+Qingdao,5597000,
+Singapore,5850342,
+Belo Horizonte,5182000,
+Sydney,5312000,
+Guadalajara,5234000,
+Dallas,6301000,
+Miami,6122000,
+Berlin,3769000,
+Cape Town,4336880,
+Rome,2873000,
