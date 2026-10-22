@@ -29,7 +29,8 @@ try:
         raise ValueError("Weather CSV mein required columns missing hain")
 
     if not required_demo.issubset(demographics_df.columns):
-        raise ValueError("Demographics CSV mein required columns missing hain")
+        raise ValueError("Required columns are missing in Demographic CSV")
+
 
     # Same city aur same timestamp ki duplicate readings hatao
     weather_df = weather_df.drop_duplicates(
@@ -37,7 +38,7 @@ try:
         keep="last"
     )
 
-    # Weather aur demographic data join karo
+    #Join Demographic and Weather data
     combined_df = pd.merge(
         weather_df,
         demographics_df,
@@ -47,9 +48,10 @@ try:
     )
 
     if combined_df["population"].isna().any():
-        raise ValueError("Kuch cities ka demographic data nahi mila")
+        raise ValueError("Some citi's Demographic Data is not present")
 
-    # Latest readings ko upar dikhane ke liye sort karo
+
+    # sort the reading to show in up side
     combined_df = combined_df.sort_values(
         by="time",
         ascending=False
