@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 st.title("🌦️ Weather Dashboard")
-st.write("Delhi, Mumbai aur Bengaluru ka weather data")
+st.write("Weather data of Delhi, Mumbai and Banglore")
 
 # Project paths
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -35,7 +35,7 @@ def load_data(file_path, modified_time):
 # 3. Refresh Weather Data
 # -------------------------------
 if st.button("🔄 Refresh Weather Data"):
-    with st.spinner("Latest weather data fetch ho raha hai..."):
+    with st.spinner("Latest weather data is getting fetched..."):
         try:
             result = subprocess.run(
                 [sys.executable, str(MAIN_SCRIPT)],
@@ -50,15 +50,15 @@ if st.button("🔄 Refresh Weather Data"):
                 load_data.clear()
                 st.rerun()
             else:
-                st.error("Pipeline run nahi hui. Error:")
+                st.error("Pipeline didn't run. Error:")
                 st.code(result.stderr or result.stdout)
 
         except subprocess.TimeoutExpired:
             st.error(
-                "Pipeline ko chalne mein bahut samay laga. Dobara try karo."
+                "took large amount of time to run a pipeline, run again."
             )
         except OSError as error:
-            st.error(f"Pipeline start nahi ho paayi: {error}")
+            st.error(f"Pipeline couldn't start: {error}")
 
 
 # -------------------------------
@@ -67,8 +67,8 @@ if st.button("🔄 Refresh Weather Data"):
 try:
     if not DATA_FILE.exists():
         st.error(
-            "data/combined_data.csv file nahi mili. "
-            "Pehle pipeline run karo."
+            "data/combined_data.csv file not found. "
+            "First run the pipeline."
         )
         st.stop()
 
@@ -78,7 +78,7 @@ try:
     )
 
     if df.empty:
-        st.warning("Abhi weather data available nahi hai.")
+        st.warning("Currently weather data is not available.")
         st.stop()
 
     required_columns = {
@@ -92,7 +92,7 @@ try:
 
     if missing_columns:
         st.error(
-            "CSV mein required columns missing hain: "
+            "required columns are missing in CSV: "
             + ", ".join(sorted(missing_columns))
         )
         st.stop()
@@ -117,7 +117,7 @@ try:
     )
 
     if df.empty:
-        st.warning("CSV mein valid weather records nahi mile.")
+        st.warning("Didn't find valid weather record in CSV.")
         st.stop()
 
     # -------------------------------
@@ -167,7 +167,7 @@ try:
 
     if filtered_df.empty:
         st.warning(
-            "Selected filters ke liye weather data nahi mila."
+            "Didn't find the weather data for selected filter."
         )
         st.stop()
 
@@ -247,8 +247,8 @@ try:
 
 except FileNotFoundError:
     st.error(
-        "data/combined_data.csv file nahi mili. "
-        "Pehle pipeline run karo."
+        "data/combined_data.csv file not found. "
+        "First run the pipeline."
     )
 
 except (
@@ -257,10 +257,10 @@ except (
     pd.errors.ParserError
 ) as error:
     st.error(
-        f"Data load karne mein problem hui: {error}"
+        f"Got problem in loading Data: {error}"
     )
 
 except OSError as error:
     st.error(
-        f"File read karne mein problem hui: {error}"
+        f"Got problem in reading the file: {error}"
     )
