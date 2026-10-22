@@ -31,7 +31,7 @@ FIELDS = [
 
 
 def fetch_weather(city, coordinates):
-    """Open-Meteo API se city ka current weather fetch karta hai."""
+    """Open-Meteo API"""
 
     url = "https://api.open-meteo.com/v1/forecast"
 
@@ -56,7 +56,7 @@ def fetch_weather(city, coordinates):
 
 
 def run_pipeline():
-    """Weather data fetch karke CSV mein append karta hai."""
+    """Append weather data to csv ."""
 
     file_exists = os.path.exists(CSV_FILE)
     write_header = (
