@@ -105,3 +105,8 @@
 2026-10-22 19:53:56,923 - INFO - Transformation successful: 74 unique records
 2026-10-22 19:59:58,536 - INFO - Transformation successful: 74 unique records
 2026-10-22 20:00:25,636 - INFO - Transformation successful: 94 unique records
+2026-10-22 20:16:30,811 - ERROR - Data transformation failed
+Traceback (most recent call last):
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/transform.py", line 50, in <module>
+    raise ValueError("Kuch cities ka demographic data nahi mila")
+ValueError: Kuch cities ka demographic data nahi mila

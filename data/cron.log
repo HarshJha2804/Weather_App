@@ -787,3 +787,115 @@ Running: src/pipeline.py
 Running: src/transform.py
 
 Pipeline completed successfully!
+Fetched: Delhi, India
+Fetched: Mumbai, India
+Fetched: Bengaluru, India
+Fetched: Chennai, India
+Fetched: Kolkata, India
+Fetched: Hyderabad, India
+Fetched: Pune, India
+Fetched: Jaipur, India
+Fetched: Ahmedabad, India
+Fetched: Lucknow, India
+Fetched: London, United Kingdom
+Fetched: Manchester, United Kingdom
+Fetched: Birmingham, United Kingdom
+Fetched: Paris, France
+Fetched: Lyon, France
+Fetched: Berlin, Germany
+Fetched: Munich, Germany
+Fetched: Hamburg, Germany
+Fetched: Rome, Italy
+Fetched: Milan, Italy
+Fetched: Madrid, Spain
+Fetched: Barcelona, Spain
+Fetched: Amsterdam, Netherlands
+Fetched: Brussels, Belgium
+Fetched: Zurich, Switzerland
+Fetched: Vienna, Austria
+Fetched: Stockholm, Sweden
+Fetched: Oslo, Norway
+Fetched: Copenhagen, Denmark
+Fetched: Helsinki, Finland
+Fetched: Warsaw, Poland
+Fetched: Prague, Czechia
+Fetched: Lisbon, Portugal
+Fetched: Athens, Greece
+Fetched: Istanbul, Turkey
+Fetched: New York, United States
+Fetched: Los Angeles, United States
+Fetched: Chicago, United States
+Fetched: Houston, United States
+Fetched: Seattle, United States
+Fetched: Toronto, Canada
+Fetched: Vancouver, Canada
+Fetched: Montreal, Canada
+Fetched: Mexico City, Mexico
+Fetched: Guadalajara, Mexico
+Fetched: Sao Paulo, Brazil
+Fetched: Rio de Janeiro, Brazil
+Fetched: Buenos Aires, Argentina
+Fetched: Santiago, Chile
+Fetched: Bogota, Colombia
+Fetched: Lima, Peru
+Fetched: Tokyo, Japan
+Fetched: Osaka, Japan
+Fetched: Seoul, South Korea
+Fetched: Busan, South Korea
+Fetched: Beijing, China
+Fetched: Shanghai, China
+Fetched: Shenzhen, China
+Fetched: Hong Kong, Hong Kong
+Fetched: Taipei, Taiwan
+Fetched: Singapore, Singapore
+Fetched: Bangkok, Thailand
+Fetched: Jakarta, Indonesia
+Fetched: Kuala Lumpur, Malaysia
+Fetched: Manila, Philippines
+Fetched: Ho Chi Minh City, Vietnam
+Fetched: Hanoi, Vietnam
+Fetched: Dhaka, Bangladesh
+Fetched: Karachi, Pakistan
+Fetched: Lahore, Pakistan
+Fetched: Kathmandu, Nepal
+Fetched: Colombo, Sri Lanka
+Fetched: Dubai, United Arab Emirates
+Fetched: Abu Dhabi, United Arab Emirates
+Fetched: Riyadh, Saudi Arabia
+Fetched: Jeddah, Saudi Arabia
+Fetched: Doha, Qatar
+Fetched: Kuwait City, Kuwait
+Fetched: Tel Aviv, Israel
+Fetched: Amman, Jordan
+Fetched: Cairo, Egypt
+Fetched: Casablanca, Morocco
+Fetched: Lagos, Nigeria
+Fetched: Nairobi, Kenya
+Fetched: Addis Ababa, Ethiopia
+Fetched: Accra, Ghana
+Fetched: Cape Town, South Africa
+Fetched: Johannesburg, South Africa
+Fetched: Melbourne, Australia
+Fetched: Sydney, Australia
+Fetched: Brisbane, Australia
+Fetched: Perth, Australia
+Fetched: Auckland, New Zealand
+Fetched: Wellington, New Zealand
+
+Success! Fetched weather for 94 cities.
+Saved to: /mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/data/weather.csv
+Transformation failed. Check data/pipeline.log
+Traceback (most recent call last):
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/transform.py", line 50, in <module>
+    raise ValueError("Kuch cities ka demographic data nahi mila")
+ValueError: Kuch cities ka demographic data nahi mila
+
+Running: src/pipeline.py
+
+Running: src/transform.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/src/main.py", line 12, in <module>
+    subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/mnt/c/Users/harsh/OneDrive/Desktop/weather_app/weather-pipeline/.venv/bin/python', 'src/transform.py']' returned non-zero exit status 1.
