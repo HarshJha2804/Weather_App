@@ -1,18 +1,26 @@
 
-import os
-import csv
+from pathlib import Path
 import logging
+import pandas as pd
 import requests
 
-# Data folder aur log file
-os.makedirs("data", exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = BASE_DIR / "data"
+CITIES_FILE = DATA_DIR / "cities.csv"
+WEATHER_FILE = DATA_DIR / "weather.csv"
+LOG_FILE = DATA_DIR / "pipeline.log"
+
+API_URL = "https://api.open-meteo.com/v1/forecast"
+
+DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 logging.basicConfig(
-    filename="data/pipeline.log",
+    filename=LOG_FILE,
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    format="%(asctime)s %(levelname)s %(message)s",
 )
 
+<<<<<<< HEAD
 # Cities ke coordinates
 CITIES = {
     "Delhi": {"latitude": 28.6139, "longitude": 77.2090},
@@ -35,88 +43,69 @@ def fetch_weather(city, coordinates):
 
     url = "https://api.open-meteo.com/v1/forecast"
 
+=======
+def fetch_weather(city):
+>>>>>>> 21e511f (added files)
     params = {
-        "latitude": coordinates["latitude"],
-        "longitude": coordinates["longitude"],
-        "current": "temperature_2m,relative_humidity_2m"
+        "latitude": city["latitude"],
+        "longitude": city["longitude"],
+        "current": "temperature_2m,relative_humidity_2m",
+        "timezone": "auto",
     }
 
-    response = requests.get(url, params=params, timeout=15)
+    response = requests.get(API_URL, params=params, timeout=30)
     response.raise_for_status()
-
-    data = response.json()
-    current = data["current"]
+    weather = response.json()
+    current = weather.get("current", {})
 
     return {
-        "time": current["time"],
-        "temperature_celsius": current["temperature_2m"],
-        "relative_humidity": current["relative_humidity_2m"],
-        "city": city
+        "time": current.get("time"),
+        "temperature_celsius": current.get("temperature_2m"),
+        "relative_humidity": current.get("relative_humidity_2m"),
+        "city": city["city"],
+        "country": city["country"],
+        "latitude": city["latitude"],
+        "longitude": city["longitude"],
     }
 
-
 def run_pipeline():
+<<<<<<< HEAD
     """Append weather data to csv ."""
+=======
+    cities = pd.read_csv(CITIES_FILE)
+    records = []
+>>>>>>> 21e511f (added files)
 
-    file_exists = os.path.exists(CSV_FILE)
-    write_header = (
-        not file_exists or os.path.getsize(CSV_FILE) == 0
+    for _, city in cities.iterrows():
+        try:
+            record = fetch_weather(city)
+            records.append(record)
+            print(f"Fetched: {city['city']}, {city['country']}")
+        except (requests.RequestException, ValueError, KeyError) as exc:
+            logging.exception("Failed for %s: %s", city["city"], exc)
+            print(f"Failed: {city['city']} - {exc}")
+
+    if not records:
+        raise RuntimeError("No weather data fetched. Check internet and API.")
+
+    new_data = pd.DataFrame(records)
+
+    if WEATHER_FILE.exists():
+        old_data = pd.read_csv(WEATHER_FILE)
+        combined = pd.concat([old_data, new_data], ignore_index=True)
+    else:
+        combined = new_data
+
+    combined = combined.drop_duplicates(
+        subset=["city", "country", "time"],
+        keep="last",
     )
 
-    successful_records = 0
+    combined.to_csv(WEATHER_FILE, index=False)
 
-    try:
-        with open(CSV_FILE, "a", newline="", encoding="utf-8") as file:
-            writer = csv.DictWriter(file, fieldnames=FIELDS)
-
-            if write_header:
-                writer.writeheader()
-
-            for city, coordinates in CITIES.items():
-                try:
-                    weather = fetch_weather(city, coordinates)
-                    writer.writerow(weather)
-                    file.flush()
-
-                    successful_records += 1
-
-                    print(
-                        f"{city}: weather fetched successfully "
-                        f"at {weather['time']}"
-                    )
-
-                    logging.info(
-                        "%s weather fetched successfully", city
-                    )
-
-                except (
-                    requests.RequestException,
-                    KeyError,
-                    ValueError,
-                    TypeError
-                ):
-                    logging.exception(
-                        "Weather fetch failed for %s", city
-                    )
-                    print(f"{city}: weather fetch failed")
-
-        if successful_records == len(CITIES):
-            print("Weather CSV updated successfully!")
-            logging.info(
-                "Pipeline completed: %s cities processed",
-                successful_records
-            )
-        else:
-            print(
-                f"Pipeline partially completed: "
-                f"{successful_records}/{len(CITIES)} cities"
-            )
-
-    except OSError:
-        logging.exception("Unable to write weather CSV")
-        print("CSV write failed. Check data/pipeline.log")
-        raise
-
+    print(f"\nSuccess! Fetched weather for {len(new_data)} cities.")
+    print(f"Saved to: {WEATHER_FILE}")
 
 if __name__ == "__main__":
     run_pipeline()
+
